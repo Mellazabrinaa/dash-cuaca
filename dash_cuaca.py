@@ -729,5 +729,7 @@ def perbarui_dashboard(provinsi_terpilih, kota_terpilih, _):
         fig
     )
 
+server = app.server
+
 if __name__ == "__main__":
     app.run(debug=True)
